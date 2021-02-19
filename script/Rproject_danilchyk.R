@@ -11,7 +11,6 @@
 
 # Nahrani potrebnych pro zpracovani dat balicku
 library(leaflet)
-library(sp)
 library(maps)
 library(geojsonio)
 library(rlist)
