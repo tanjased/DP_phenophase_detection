@@ -1,5 +1,9 @@
-# Rko_processing
+# Diplomova prace. 
+# Assessment of vegetation phenology using Sentinel-2 time series data
+# Tatsiana Danilchyk
 
-The script suggests to play a game based on 2 options: you can choose a play game where you type a name of a city and the computer replies with a name 
-which starts with the last letter of the previous word. Then you should choose a town which starts with the last letter of a previous word, respectively. 
-The second option is an example of a leaflet map in R environment.
+This repository contains two folders:
+  1. GEE, where the javascript code developed in Google Earth Engine is stored
+  2. R_data_processing, where the R codes for the SOS/EOS retrieval in the phenex, phenopix and greenbrown packages are stored. 
+
+Link to the code in the GEE environment:  https://code.earthengine.google.com/?scriptPath=users%2Fdanisan284%2Ftest1%3ATS_NDVI%2Fndvi2%20triplets
