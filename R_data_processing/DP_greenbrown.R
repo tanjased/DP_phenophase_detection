@@ -1,10 +1,10 @@
 # Data import from GEE
-#c <- read.csv("C:/Users/Данильчик/Documents/UK/_DP/Scripts/DATA_GEE/2_Belec/borovice_NDMI.csv", encoding="UTF-8", header=FALSE)
-#c <- read.csv("C:/Users/Данильчик/Documents/UK/_DP/Scripts/DATA_GEE/5_Medenec/buk_NDMI.csv", encoding="UTF-8", header=FALSE)
-#c <- read.csv("C:/Users/Данильчик/Documents/UK/_DP/Scripts/DATA_GEE/4_Frydlant/habr_NDVI.csv", encoding="UTF-8", header=FALSE)
-#c <- read.csv("C:/Users/Данильчик/Documents/UK/_DP/Scripts/DATA_GEE/6_Vranovice/jasan_NDMI.csv", encoding="UTF-8", header=FALSE)
-#c <- read.csv("C:/Users/Данильчик/Documents/UK/_DP/Scripts/DATA_GEE/3_Modrava/smrk_NDRE.csv", encoding="UTF-8", header=FALSE)
-#c <- read.csv("C:/Users/Данильчик/Documents/UK/_DP/Scripts/DATA_GEE/1_Chribska/dub_NDVI.csv", encoding="UTF-8", header=FALSE)
+#c <- read.csv("C:/Users/Danilchyk/Documents/UK/_DP/Scripts/DATA_GEE/2_Belec/borovice_NDMI.csv", encoding="UTF-8", header=FALSE)
+#c <- read.csv("C:/Users/Danilchyk/Documents/UK/_DP/Scripts/DATA_GEE/5_Medenec/buk_NDMI.csv", encoding="UTF-8", header=FALSE)
+#c <- read.csv("C:/Users/Danilchyk/Documents/UK/_DP/Scripts/DATA_GEE/4_Frydlant/habr_NDVI.csv", encoding="UTF-8", header=FALSE)
+#c <- read.csv("C:/Users/Danilchyk/Documents/UK/_DP/Scripts/DATA_GEE/6_Vranovice/jasan_NDMI.csv", encoding="UTF-8", header=FALSE)
+#c <- read.csv("C:/Users/Danilchyk/Documents/UK/_DP/Scripts/DATA_GEE/3_Modrava/smrk_NDRE.csv", encoding="UTF-8", header=FALSE)
+#c <- read.csv("C:/Users/Danilchyk/Documents/UK/_DP/Scripts/DATA_GEE/1_Chribska/dub_NDVI.csv", encoding="UTF-8", header=FALSE)
 
 library(splitstackshape)
 
