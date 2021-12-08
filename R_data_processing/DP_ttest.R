@@ -1,5 +1,5 @@
 #T.test
-#misto: vahy muzete pojmenovat data jakkoliv jinak, treba: data, ukol1, vzorek ...
+#input data
 fenofaze=read.table(file.choose(), header<-T) 
 attach(fenofaze)
 #Compute student's t-test
@@ -30,10 +30,5 @@ var.test(Reference2,MCARI2)
 var.test(Reference2,RENDVI2)
 var.test(Reference2,NDRE2)
 
-#potential wilcoxon test
-wilcox.test(Reference2,NDVI2,paired = TRUE)
-wilcox.test(Reference2,NDRE2,paired = TRUE)
-wilcox.test(Reference2,NDMI2,paired = TRUE)
-wilcox.test(Reference2,MCARI2,paired = TRUE)
-wilcox.test(Reference2,RENDVI2,paired = TRUE)
+
 
