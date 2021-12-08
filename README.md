@@ -1,4 +1,4 @@
-# Diplomova prace. 
+# Diplomova prace 
 # Assessment of vegetation phenology using Sentinel-2 time series data
 # Tatsiana Danilchyk
 
