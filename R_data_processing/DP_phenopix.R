@@ -1,10 +1,10 @@
 # Data import from GEE
-#c <- read.csv("C:/Users/Данильчик/Documents/UK/_DP/Scripts/DATA_GEE/2_Belec/borovice_NDMI.csv", encoding="UTF-8", header=FALSE)
-#c <- read.csv("C:/Users/Данильчик/Documents/UK/_DP/Scripts/DATA_GEE/5_Medenec/buk_NDMI.csv", encoding="UTF-8", header=FALSE)
-#c <- read.csv("C:/Users/Данильчик/Documents/UK/_DP/Scripts/DATA_GEE/4_Frydlant/habr_NDRE.csv", encoding="UTF-8", header=FALSE)
-#c <- read.csv("C:/Users/Данильчик/Documents/UK/_DP/Scripts/DATA_GEE/6_Vranovice/jasan_NDMI.csv", encoding="UTF-8", header=FALSE)
-#c <- read.csv("C:/Users/Данильчик/Documents/UK/_DP/Scripts/DATA_GEE/3_Modrava/smrk_NDRE.csv", encoding="UTF-8", header=FALSE)
-#c <- read.csv("C:/Users/Данильчик/Documents/UK/_DP/Scripts/DATA_GEE/1_Chribska/dub_NDVI.csv", encoding="UTF-8", header=FALSE)
+#c <- read.csv("C:/Users/Danilchyk/Documents/UK/_DP/Scripts/DATA_GEE/2_Belec/borovice_NDMI.csv", encoding="UTF-8", header=FALSE)
+#c <- read.csv("C:/Users/Danilchyk/Documents/UK/_DP/Scripts/DATA_GEE/5_Medenec/buk_NDMI.csv", encoding="UTF-8", header=FALSE)
+#c <- read.csv("C:/Users/Danilchyk/Documents/UK/_DP/Scripts/DATA_GEE/4_Frydlant/habr_NDRE.csv", encoding="UTF-8", header=FALSE)
+#c <- read.csv("C:/Users/Danilchyk/Documents/UK/_DP/Scripts/DATA_GEE/6_Vranovice/jasan_NDMI.csv", encoding="UTF-8", header=FALSE)
+#c <- read.csv("C:/Users/Danilchyk/Documents/UK/_DP/Scripts/DATA_GEE/3_Modrava/smrk_NDRE.csv", encoding="UTF-8", header=FALSE)
+#c <- read.csv("C:/Users/Danilchyk/Documents/UK/_DP/Scripts/DATA_GEE/1_Chribska/dub_NDVI.csv", encoding="UTF-8", header=FALSE)
 library(splitstackshape)
 
 
@@ -77,6 +77,7 @@ title(main="NDVI Time Series", col.main="red", col.sub="blue",
 ##### Package phenopix
 library(phenopix)
 
+#potential outliers removal
 coll18 <- data.frame(date=year18,ndvi=ndvi18)
 coll19 <- data.frame(date=year19,ndvi=ndvi19)
 coll20 <- data.frame(date=year20,ndvi=ndvi20)
